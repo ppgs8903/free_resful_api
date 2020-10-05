@@ -6,7 +6,7 @@ description: 天气api
 
 {% api-method method="get" host="https://www.apiopen.top/weatherApi" path="" %}
 {% api-method-summary %}
-https://www.apiopen.top/weatherApi
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
