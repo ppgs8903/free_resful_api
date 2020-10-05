@@ -4,9 +4,9 @@ description: 天气api
 
 # wheather api
 
-{% api-method method="get" host="https://www.apiopen.top/weatherApi" path="" %}
+{% api-method method="get" host="https://www.apiopen.top/weatherApi" path="?city=beiing" %}
 {% api-method-summary %}
-
+https://www.apiopen.top/weatherApi
 {% endapi-method-summary %}
 
 {% api-method-description %}
