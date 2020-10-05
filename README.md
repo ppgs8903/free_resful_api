@@ -4,7 +4,7 @@ description: 天气api
 
 # wheather api
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="https://www.apiopen.top/weatherApi" path="" %}
 {% api-method-summary %}
 https://www.apiopen.top/weatherApi
 {% endapi-method-summary %}
@@ -29,7 +29,11 @@ https://www.apiopen.top/weatherApi
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "code": 200,
+    "msg": "成功!",
+    "data": {}
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
